@@ -2,7 +2,8 @@
   "builds": [
     { "src": "build/**/*", "use": "@vercel/static" }
   ],
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+"rewrites": [
+  { "source": "/textcompare/(.*)", "destination": "/index.html" }
+]
 }
+
